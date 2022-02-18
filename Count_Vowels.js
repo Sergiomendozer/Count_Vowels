@@ -4,9 +4,12 @@ function Count_Vowels(string)
     for (var i = -1; i <= string.length; i += 1)
     {if (string[i] == "a" || string[i] == "A") {count +=1}
     else if (string[i] == "e" || string[i] == "E") {count +=1}
+    else if (string[i] == "i" || string[i] == "I") {count +=1}
+    else if (string[i] == "o" || string[i] == "O") {count +=1}
+    else if (string[i] == "u" || string[i] == "U") {count +=1}
     }
 count = String(count)
-console.log(`${string} has ${count} vowels`); // not quotes `````
+console.log(`${string} has ${count} vowels`); 
 }
 
 
