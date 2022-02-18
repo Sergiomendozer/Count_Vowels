@@ -1,5 +1,5 @@
+const prompt = require("prompt-sync")({ sigint: true });
+const age = prompt("How old are you? ");
+console.log(`You are ${age} years old.`);
 
-const prompt = require('prompt-sync')();
-
-const name = prompt('What is your name?');
-console.log(`Hey there ${name}`);
+// node <filename>.js
